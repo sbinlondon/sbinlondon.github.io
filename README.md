@@ -4,7 +4,7 @@
 
 ## What's all this then?
 
-Well, it seems you've found my application webpage for [Founders and Coders](https://foundersandcoders.com), a non-profit coding camp based in sunny London :sun_with_face: :gb:
+Well, it seems you've found my application page for [Founders and Coders](https://foundersandcoders.com), a nonprofit coding course based in sunny London :sun_with_face: :gb:
 
 My prerequisite journey is almost complete:
 
@@ -22,9 +22,9 @@ My prerequisite journey is almost complete:
 
 <img src="img/shrug.gif" title="Oops">
 
-Now all that's left is to dot my `.classes` and `//comment` my stylesheets. I'll probably need some more tea before I can get on that.
+Now all that's left is to dot my `.classes`, `//comment` my stylesheets, and prepare for the real, ongoing journey that is learning to code.
 
-<img src="img/teacorgis.gif" title="Probably needs more milk">
+Be sure to check out my page for more information about me, why I'm keen to code, and some relevant links. 
 
 _Until next time - **Kate**_
 
