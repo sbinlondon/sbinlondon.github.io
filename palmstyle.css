@@ -43,31 +43,20 @@ section {
 .nav {
   position: absolute;
   top: 0;
-  width: 100%;
+  width: 100vw;
   height: 5vh;
   display: inline-block;
   overflow: hidden;
   padding: 1% 5%;
   text-align:left;
   background-color: white;
-  opacity: 0.9;
   z-index: 1;
-  border-bottom: 2px black;
 }
 
 .intro {
   height: 90vh;
-  background-color: #233C1F;
-  background-image: url("imgs/halftoned palms.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100vw;
-  position: relative;
-}
-
-.lightbg {
   background-color: #CEE0D2;
-  background-image: url("imgs/halftoned palms.jpg");
+  background-image: url("img/halftoned palms.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
@@ -75,9 +64,21 @@ section {
   opacity: 0.2;
 }
 
+.lightbg {
+  background-color: #CEE0D2;
+  background-image: url("img/halftoned palms.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  opacity: 0.2;
+}
+
 .darkbg {
   background-color: #5FA686;
   opacity: 0.4;
+  height: 100vh;
 }
 
 .content {
@@ -85,9 +86,9 @@ section {
   vertical-align: middle;
 }
 
-.content {
-  display: table-cell;
+.footer {
   vertical-align: middle;
+  text-align: center;
 }
 
 .icon-img {
@@ -95,6 +96,12 @@ section {
  width: 2em;
 }
 
+ul li{
+  display: inline;
+  padding: 1%;
+  list-style-type: none;
+  overflow: hidden;
+}
 
 h1 {
   font-size: 5em;
@@ -125,9 +132,7 @@ a {
 
 footer {
   padding: 1% 5%;
-  text-align:center;
   background-color: white;
-  color: white;
-  border-top: 2px black;
   height: 5vh;
+  margin:  auto;
 }
