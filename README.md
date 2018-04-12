@@ -10,7 +10,7 @@ My prerequisite journey is almost complete:
 
 - [x] Complete sections on [FreeCodeCamp](https://www.freecodecamp.org)
 - [x] Reach 5 kyu on [Codewars](https://www.codewars.com/)
-- [x] Create a Codewars kata
+- [x] Create a Codewars [kata](https://www.codewars.com/kata/5ac66185a1ad6f065b000046)
 - [x] Make friends, go to meetups, chat on Gitter
 - [x] Brew insane amounts of tea
 - [ ] Convince 3 Brits to put milk first when brewing tea
