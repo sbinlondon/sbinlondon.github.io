@@ -1,17 +1,12 @@
-/*--font-family: 'Open Sans', sans-serif;
-font-family: 'Source Sans Pro', sans-serif;*/
-
 /*generic body styles for mobile first design*/
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
   line-height: 1.2;
 }
 
@@ -23,6 +18,8 @@ section {
   max-width: none;
   height: 100vh;
 }
+
+/*nav bar for all styles*/
 
 .nav {
   position: relative;
@@ -44,42 +41,51 @@ section {
     list-style-type: none;
     overflow: hidden;
     color: #5FA686;
-    font-size: 3vh;
+    font-size: 4vh;
     padding: 1vw;
 }
 
 .nav a:link {
+  font-family: 'Satisfy', cursive;
   color: #5FA686;
   text-decoration: none;
 }
 
 .nav a:visited {
+  font-family: 'Satisfy', cursive;
   color: #5FA686;
   text-decoration: none;
 }
 
 .nav a:hover {
+  font-family: 'Satisfy', cursive;
   color: #CEE0D2;
   text-decoration: none;
 }
 
 .nav a:active {
+  font-family: 'Satisfy', cursive;
   color: #CEE0D2;
   text-decoration: none;
 }
 
+/*first section for all styles*/
+
 .introbg {
   height: 80vh;
-  background-image: url("img/halftoned palms.jpg");
+  background-image: url("img/halftonedfadedpalms.jpg");
+  background-blend-mode: darken;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
   position: relative;
 }
 
+/*palm background section for all styles*/
+
 .imgbg {
   background-color: #CEE0D2;
-  background-image: url("img/halftoned palms.jpg");
+  background-image: url("img/halftonedfadedpalms.jpg");
   background-opacity: 0.4;
   background-repeat: no-repeat;
   background-size: cover;
@@ -88,10 +94,50 @@ section {
   position: relative;
 }
 
+/*alternating solid background for all styles*/
+
 .solidbg {
   background-color: #CEE0D2;
   height: 90vh;
   width: 100vw;
+}
+
+/*divs for main sections for mobile*/
+
+.mobileintrocontent {
+  margin: 2vh 1vw;
+  padding: 5vh 5vw;
+  border-style: none;
+  min-height: 75vh;
+  position: relative;
+}
+
+.mobilesectioncontent {
+  margin: 2vh 1vw;
+  padding: 5vh 5vw;
+  border-style: none;
+  min-height: 85vh;
+  position: relative;
+}
+
+/*footer for all styles*/
+
+.footer {
+  padding: 1vh;
+  width: 100vw;
+  height: 10vh;
+  margin: auto;
+  vertical-align: middle;
+  text-align: center;
+  background-color: white;
+  display: inline-block;
+  justify-content: space-between;
+}
+
+.footer img {
+  width: auto;
+  height: 5vh;
+  margin: 1vh;
 }
 
 .content {
@@ -99,21 +145,35 @@ section {
   vertical-align: middle;
 }
 
-.footer {
-  padding: 3vh;
-  width: 100vw;
-  height: 10vh;
-  margin: auto;
-  vertical-align: middle;
-  text-align: center;
-  background-color: white;
-  display: flex;
-  justify-content: space-between;
+/*Rounded images*/
+
+.kate-img {
+    border-width: 0px;
+    border-radius: 50%;
+    width: 50vw;
+  }
+
+.hobby-img {
+    border-width: 0px;
+    border-radius: 50%;
+    width: 50vw;
+  }
+
+/*text styles for mobile*/
+
+h1 {
+  font-family: 'Satisfy', cursive;
+  font-size: 5vh;
+  font-style: italic;
+  color: black;
 }
 
-.footer img {
-  width: auto;
-  height: 5vh;
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2vh;
+  font-weight: 400;
+  color: black;
+  text-align: justify;
 }
 
 ul li{
@@ -123,28 +183,25 @@ ul li{
   overflow: hidden;
 }
 
-h1 {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 8em;
-  font-weight: 600;
-  color: black;
-}
 
-p {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 5vw;
-  font-weight: 400;
-  color: black;
+
+#mainframe {
+  min-height: 700px;
+   width: 500px;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin: auto;
+  padding: 20px, 20px;
 }
 
 /* MID SIZE DEVICES */
 
-@media (min-width: 630px){
+@media (min-width: 700px){
+
 
 }
 
 /* LARGE SIZE DEVICES */
 
-@media (min-width: 1220px){
+@media (min-width: 1400px){
 
 }
