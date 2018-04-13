@@ -19,6 +19,22 @@ section {
   height: 100vh;
 }
 
+.navlg {
+  display: none;
+}
+
+.introlarge {
+  display: none;
+}
+
+.imglarge {
+  display: none;
+}
+
+.solidlarge {
+  display: none;
+}
+
 /*nav bar for all styles*/
 
 .nav {
@@ -72,9 +88,8 @@ section {
 /*first section for all styles*/
 
 .introbg {
-  height: 80vh;
+  min-height: 70vh;
   background-image: url("img/halftonedfadedpalms.jpg");
-  background-blend-mode: darken;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
@@ -86,11 +101,10 @@ section {
 .imgbg {
   background-color: #CEE0D2;
   background-image: url("img/halftonedfadedpalms.jpg");
-  background-opacity: 0.4;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
-  height: 90vh;
+  min-height: 90vh;
   position: relative;
 }
 
@@ -98,7 +112,7 @@ section {
 
 .solidbg {
   background-color: #CEE0D2;
-  height: 90vh;
+  min-height: 90vh;
   width: 100vw;
 }
 
@@ -145,21 +159,74 @@ section {
   vertical-align: middle;
 }
 
-/*Rounded images*/
+/*Rounded images for mobile*/
 
 .kate-img {
     border-width: 0px;
     border-radius: 50%;
     width: 50vw;
+    margin-bottom: 2vh;
   }
 
 .hobby-img {
     border-width: 0px;
     border-radius: 50%;
     width: 50vw;
+    margin-bottom: 2vh;
   }
 
 /*text styles for mobile*/
+
+h1 {
+  font-family: 'Satisfy', cursive;
+  font-size: 5vh;
+  font-style: italic;
+  color: black;
+}
+
+.h1 {
+  margin-bottom: 2vh;
+  text-align: center;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 4vw;
+  font-weight: 400;
+  color: black;
+  text-align: justify;
+}
+
+ul li{
+  display: inline;
+  padding: 1%;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.image {
+  text-align: center;
+}
+
+/* MID SIZE DEVICES */
+
+@media (min-width: 700px){
+
+/*Rounded images for medium screens*/
+
+  .kate-img {
+      border-width: 0px;
+      border-radius: 50%;
+      width: 35vw;
+    }
+
+  .hobby-img {
+      border-width: 0px;
+      border-radius: 50%;
+      width: 35vw;
+    }
+
+/*text style for medium screens*/
 
 h1 {
   font-family: 'Satisfy', cursive;
@@ -176,32 +243,186 @@ p {
   text-align: justify;
 }
 
-ul li{
-  display: inline;
-  padding: 1%;
-  list-style-type: none;
-  overflow: hidden;
-}
-
-
-
-#mainframe {
-  min-height: 700px;
-   width: 500px;
-  background-color: rgba(255, 255, 255, 0.3);
-  margin: auto;
-  padding: 20px, 20px;
-}
-
-/* MID SIZE DEVICES */
-
-@media (min-width: 700px){
-
-
+.p {
+  text-align: center;
 }
 
 /* LARGE SIZE DEVICES */
 
-@media (min-width: 1400px){
+@media (min-width: 1200px){
+
+/*sections to hide*/
+
+    .introbg {
+      display: none;
+    }
+
+    .imgbg {
+      display: none;
+    }
+
+    .solidbg {
+      display: none;
+    }
+
+    .nav {
+      display: none;
+    }
+
+/*main panes to reinsert*/
+
+.navlg {
+  position: relative;
+  top: 0;
+  overflow: hidden;
+  padding: 3vh;
+  width: 100vw;
+  height: 10vh;
+  margin: auto;
+  background-color: white;
+  display: inline-block;
+  background-color: white;
+  z-index: 1;
+  text-align: center;
+}
+
+.navlg ul li {
+    display: inline;
+    list-style-type: none;
+    overflow: hidden;
+    color: #5FA686;
+    font-size: 4vh;
+    padding: 1vw;
+}
+
+.navlg a:link {
+  font-family: 'Satisfy', cursive;
+  color: #5FA686;
+  text-decoration: none;
+}
+
+.navlg a:visited {
+  font-family: 'Satisfy', cursive;
+  color: #5FA686;
+  text-decoration: none;
+}
+
+.navlg a:hover {
+  font-family: 'Satisfy', cursive;
+  color: #CEE0D2;
+  text-decoration: none;
+}
+
+.navlg a:active {
+  font-family: 'Satisfy', cursive;
+  color: #CEE0D2;
+  text-decoration: none;
+}
+
+.introlarge {
+  height: 70vh;
+  background-image: url("img/halftonedfadedpalms.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.imglarge {
+  background-color: #CEE0D2;
+  background-image: url("img/halftonedfadedpalms.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.solidlarge {
+  background-color: #CEE0D2;
+  height: 70vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: relative;
+}
+
+/*pane section contents*/
+
+.introcontent {
+  margin: 2vh 1vw;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60vw;
+}
+
+.sectioncontent {
+  margin: 2vh 1vw;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60vw;
+}
+
+.picheadingdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1vw;
+}
+
+.textdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1vw;
+}
+
+/*Rounded images for medium screens*/
+
+    .kate-img {
+        border-width: 0px;
+        border-radius: 50%;
+        width: 20vw;
+      }
+
+    .hobby-img {
+        border-width: 0px;
+        border-radius: 50%;
+        width: 20vw;
+      }
+
+/*text styles for large screens*/
+
+    h1 {
+      font-family: 'Satisfy', cursive;
+      font-size: 5vh;
+      font-style: italic;
+      color: black;
+    }
+
+    .h1 {
+      text-align: center;
+    }
+
+    p {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 1vw;
+      font-weight: 400;
+      color: black;
+      text-align: justify;
+    }
+
+  }
 
 }
