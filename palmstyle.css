@@ -89,7 +89,7 @@ section {
 
 .introbg {
   min-height: 70vh;
-  background-image: url("img/halftonedfadedpalms.jpg");
+  background: #eeeeee;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
@@ -100,7 +100,7 @@ section {
 
 .imgbg {
   background-color: #CEE0D2;
-  background-image: url("img/halftonedfadedpalms.jpg");
+  background: #eeeeee;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
@@ -321,7 +321,7 @@ p {
 
 .introlarge {
   height: 70vh;
-  background-image: url("img/halftonedfadedpalms.jpg");
+  background: #eeeeee;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
@@ -333,7 +333,7 @@ p {
 
 .imglarge {
   background-color: #CEE0D2;
-  background-image: url("img/halftonedfadedpalms.jpg");
+  background: #eeeeee;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
