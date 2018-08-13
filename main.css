@@ -1,0 +1,251 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Arvo', serif;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  text-shadow: -1px 1px black;
+}
+
+a:hover {
+  animation: zomg 0.5s infinite;
+}
+
+.black-shadow {
+  color: white;
+  font-weight: 700;
+  text-shadow: -1px 1px black;
+}
+
+
+@keyframes zomg {
+  0%,100% {
+      color: rgb(255, 131, 131)
+  }
+
+  16% {
+    color: rgb(255, 146, 231)
+      
+  }
+
+  32% {
+    color: rgb(166, 252, 255)
+  }
+
+  48% {
+    color: rgb(255, 247, 140)
+  }
+
+  64% {
+    color: rgb(215, 155, 255)
+  }
+
+  80% {
+    color: rgb(167, 255, 140)
+  }
+}
+
+/* GIMME THEM BREAKPOINTS */
+
+/* phone only */
+@media (max-width: 599px) {
+  body {
+    background-color: coral;
+    background: -moz-linear-gradient(to top, #ff5998 20%, #ff8b76 100%);
+    background: -webkit-linear-gradient(to top, #ff5998 20%, #ff8b76 100%);
+    background: linear-gradient(to top, #ff5998 20%, #ff8b76 100%);
+    overflow: auto;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 8px;
+  }
+
+  h1 {
+    font-size: 6vh;
+    font-weight: 700i;
+    margin: 4px 0;
+  }
+  
+  h2 {
+    font-size: 5vh;
+    margin: 4px 0;
+  }
+  
+  p {
+    font-size: 2.5vh;
+    letter-spacing: 2px;
+    line-height: 1.5;
+  }
+
+  a {
+    font-size: 2.75vh;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    /* flex-basis: auto;
+    flex-grow: 1; */
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .content {
+    display: flex;
+    /* flex-basis: 70vh;
+    flex-grow: 4; */
+    min-height: 50vh;
+    align-items: center;
+    justify-content: right;
+  }
+  
+  .links {
+    display: flex;
+    /* flex-basis: auto;
+    flex-grow: 1; */
+    align-items: flex-end;
+    justify-content: center;
+  }
+}
+
+/* tablets portrait */
+@media (min-width: 600px) and (max-width: 899px) {
+  body {
+    background-color: coral;
+    background: -moz-linear-gradient(180deg, #ff5998 20%, #ff8b76 100%);
+    background: -webkit-linear-gradient(180deg, #ff5998 20%, #ff8b76 100%);
+    background: linear-gradient(180deg, #ff5998 20%, #ff8b76 100%);
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 8px;
+  }
+
+  h1 {
+    font-size: 6vh;
+    font-weight: 700i;
+    margin: 4px 0;
+  }
+  
+  h2 {
+    font-size: 5vh;
+    margin: 4px 0;
+  }
+  
+  p {
+    font-size: 2.5vh;
+    letter-spacing: 2px;
+    line-height: 1.5;
+  }
+
+  a {
+    font-size: 2.75vh;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    /* flex-basis: auto;
+    flex-grow: 1; */
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .content {
+    display: flex;
+    /* flex-basis: 70vh;
+    flex-grow: 4; */
+    min-height: 50vh;
+    align-items: center;
+    justify-content: right;
+  }
+  
+  .links {
+    display: flex;
+    /* flex-basis: auto;
+    flex-grow: 1; */
+    align-items: flex-end;
+    justify-content: center;
+  }
+}
+
+/* tablets landscape and desktop */
+@media (min-width: 900px) and (max-width: 1799px) {
+  body {
+    background-color: coral;
+    background: -moz-linear-gradient(90deg, #ff5998 20%, #ff8b76 100%);
+    background: -webkit-linear-gradient(90deg, #ff5998 20%, #ff8b76 100%);
+    background: linear-gradient(90deg, #ff5998 20%, #ff8b76 100%);
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    font-weight: 700i;
+    margin: 4px 0;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin: 4px 0;
+  }
+  
+  p {
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+    line-height: 1.65;
+  }
+  a {
+    font-size: 1.3rem;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  .content {
+    display: flex;
+    flex-basis: 70vh;
+    align-items: center;
+    justify-content: left;
+  }
+  
+  .links {
+    display: flex;
+    flex-basis: auto;
+    align-items: flex-end;
+    justify-content: left;
+  }
+}
+
+/* big desktops */
+/* @media (min-width: 1800px) {
+
+} */
