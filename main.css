@@ -198,7 +198,7 @@ a:hover {
 }
 
 /* tablets landscape and desktop */
-@media (min-width: 900px) and (max-width: 1799px) {
+@media (min-width: 900px) {
   body {
     background-color: coral;
     background: -moz-linear-gradient(90deg, #ff5998 20%, #ff8b76 100%);
