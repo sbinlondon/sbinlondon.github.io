@@ -197,8 +197,8 @@ a:hover {
   }
 }
 
-/* tablets landscape and desktop */
-@media (min-width: 900px) and (max-width: 1799px) {
+/* tablets landscape, desktop, ultra-wide */
+@media (min-width: 900px) {
   body {
     background-color: coral;
     background: -moz-linear-gradient(90deg, #ff5998 20%, #ff8b76 100%);
@@ -255,8 +255,3 @@ a:hover {
     justify-content: left;
   }
 }
-
-/* big desktops */
-/* @media (min-width: 1800px) {
-
-} */
