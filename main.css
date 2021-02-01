@@ -68,14 +68,12 @@ a:hover {
     background: linear-gradient(to top, #ff5998 20%, #ff8b76 100%);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    /* overflow: auto; */
   }
 
   main {
-    /* display: flex; */
     flex-direction: column;
     justify-content: space-evenly;
-    padding: 8px;
+    padding: 12px;
   }
 
   h1 {
@@ -104,19 +102,11 @@ a:hover {
   }
 
   .header {
-    /* display: flex;
-    flex-direction: column; */
-    /* flex-basis: auto;
-    flex-grow: 1; */
     align-items: center;
     justify-content: center;
-    /* min-height: 20vh; */
   }
   
   .content {
-    /* display: flex; */
-    /* flex-basis: 70vh;
-    flex-grow: 4; */
     min-height: 30vh;
     align-items: center;
     justify-content: right;
@@ -124,8 +114,7 @@ a:hover {
   
   .links {
     display: flex;
-    /* flex-basis: auto;
-    flex-grow: 1; */
+    flex-wrap: wrap;
     align-items: flex-end;
     justify-content: center;
   }
@@ -146,7 +135,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding: 8px;
+    padding: 24px;
   }
 
   h1 {
@@ -173,16 +162,12 @@ a:hover {
   .header {
     display: flex;
     flex-direction: column;
-    /* flex-basis: auto;
-    flex-grow: 1; */
     align-items: center;
     justify-content: center;
   }
   
   .content {
     display: flex;
-    /* flex-basis: 70vh;
-    flex-grow: 4; */
     min-height: 50vh;
     align-items: center;
     justify-content: right;
@@ -190,8 +175,6 @@ a:hover {
   
   .links {
     display: flex;
-    /* flex-basis: auto;
-    flex-grow: 1; */
     align-items: flex-end;
     justify-content: center;
   }
@@ -211,27 +194,27 @@ a:hover {
   main {
     display: flex;
     flex-direction: column;
-    padding: 24px;
+    padding: 48px;
   }
   
   h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 700i;
     margin: 4px 0;
   }
   
   h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     margin: 4px 0;
   }
   
   p {
-    font-size: 1.25rem;
+    font-size: 1.75rem;
     letter-spacing: 2px;
     line-height: 1.65;
   }
   a {
-    font-size: 1.3rem;
+    font-size: 1.9rem;
   }
   .header {
     display: flex;
