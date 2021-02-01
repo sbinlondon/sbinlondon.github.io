@@ -9,7 +9,7 @@ body {
 
 main {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 a {
@@ -107,7 +107,7 @@ a:hover {
   }
   
   .content {
-    min-height: 30vh;
+    flex-basis: 30vh;
     align-items: center;
     justify-content: right;
   }
@@ -168,7 +168,7 @@ a:hover {
   
   .content {
     display: flex;
-    min-height: 50vh;
+    flex-basis: 50vh;
     align-items: center;
     justify-content: right;
   }
